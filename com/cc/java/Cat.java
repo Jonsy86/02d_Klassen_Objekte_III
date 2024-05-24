@@ -28,7 +28,7 @@ public String getStringAttributes(String op) {
 
 public String getAge() {
   if (isFemale) {
-    return "This is an inappropriate question!";
+    return checkCompliance();
   } else {
     return String.valueOf(age);
   }
@@ -47,7 +47,7 @@ switch (counter) {
   return "I have told you once!";
   
   case 3:
-  return "I have told you once!";
+  return "Talk to the hand";
 
   default:
   return "1#!&&%"; 
